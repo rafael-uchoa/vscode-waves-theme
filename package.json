@@ -1,0 +1,36 @@
+{
+  "name": "waves-theme",
+  "publisher": "rafaeluchoa",
+  "author": "Rafael Uchoa",
+  "displayName": "Waves Theme",
+  "description": "Amazing material-like night theme for Visual Studio Code.",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "keywords": [
+    "material",
+    "purple",
+    "dark",
+    "pink",
+    "blue",
+    "night"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Waves Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/waves-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "publisherDisplayName": "Rafael Uchoa"
+  }
+}
